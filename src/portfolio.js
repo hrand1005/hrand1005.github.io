@@ -10,7 +10,7 @@ const about = {
   role: 'Software Engineer, Violinist, Weightlifter',
   description: 'Currently pursuing a Master\'s Degree in Software Engineering',
     // 'Currently pursuing a Masters Degree in Software Engineering',
-  resume: 'https://github.com/hrand1005/general-portfolio/resume.pdf',
+  resume: 'https://github.com/hrand1005/blob/dev/resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/herbie-rand-a863851a0/',
     github: 'https://github.com/hrand1005',
