@@ -1,0 +1,22 @@
+.float-container {
+    padding: 10px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+}
+
+.profile-pic {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-style: bold;
+    font-size: xx-large;
+    color: purple;
+}
