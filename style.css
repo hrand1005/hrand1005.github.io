@@ -1,16 +1,50 @@
-.float-container {
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-elems {
+    display: flex;
+    gap: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ABOUT SECTION */
+.about {
+    padding: 0px;
+}
+
+.about-left {
+    width: 30%;
+    float: left;
     padding: 10px;
 }
 
-.float-child {
-    width: 50%;
+.about-right {
+    width: 70%;
     float: left;
+    padding: 10px;
 }
 
 .profile-pic {
     margin: auto;
-    width: 200px;
+    width: 300px;
     height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+
     display: flex;
     justify-content: center;
 }
