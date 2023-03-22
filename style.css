@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.site {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 /* NAVIGATION BAR */
 .navbar {
     display: flex;
@@ -23,34 +30,43 @@ li {
 
 /* ABOUT SECTION */
 .about {
-    padding: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .about-left {
-    width: 30%;
+    width: 40%;
     float: left;
     padding: 10px;
+    padding-left: 200px;
 }
 
 .about-right {
-    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: 60%;
     float: left;
     padding: 10px;
+    padding-right: 200px;
 }
 
 .profile-pic {
     margin: auto;
-    width: 300px;
-    height: 200px;
+    margin-inline-end: 0;
+
+    width: 400px;
+    height: 400px;
     max-width: 100%;
     max-height: 100%;
+    border-radius: 50%;
 
+    object-fit: cover;
     display: flex;
     justify-content: center;
 }
 
 .name {
-    font-style: bold;
     font-size: xx-large;
     color: purple;
 }
